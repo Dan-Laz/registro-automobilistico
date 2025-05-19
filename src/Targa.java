@@ -2,7 +2,7 @@ public class Targa {
     private String numero;
 
     public Targa(String numero){
-
+        setNumero(numero);
     }
 
     public void setNumero(String numero) {
