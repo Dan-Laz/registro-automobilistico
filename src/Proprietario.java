@@ -22,5 +22,19 @@ public class Proprietario {
         this.codiceFiscale = codiceFiscale;
     }
 
-    public void
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCognome() {
+        return cognome;
+    }
+
+    public String getCodiceFiscale() {
+        return codiceFiscale;
+    }
+
+    public String toString() {
+        return "nome=" + nome + ", cognome=" + cognome + ", codiceFiscale=" + codiceFiscale;
+    }
 }
