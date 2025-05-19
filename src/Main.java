@@ -7,7 +7,11 @@ public class Main {
 
         registro.put(new Targa("CDWFRER"), new Proprietario("Dino","Cortinovis","DNCRT9884GB255"));
         registro.put(new Targa("NMREIYF"), new Proprietario("Livio","Dentella","LVDNT84297632"));
-        registro.put(new Targa("CDWFRER"), new Proprietario("Alessio","Gritti","LSSGRT9865GF255"));
+        registro.put(new Targa("CJMRERF"), new Proprietario("Alessio","Gritti","LSSGRT9865GF255"));
+        // copia
+        registro.put(new Targa("CJMRERF"), new Proprietario("Alessio","Gritti","LSSGRT9865GF255"));
+
+        System.out.println(registro);
 
     }
 }
