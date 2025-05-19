@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -15,12 +16,9 @@ public class Main {
             }else{
                 System.out.println("non aggiunto, gia presente");
             }
-
             System.out.println(registro);
             System.out.println("continue? yes - no");
         }while(in.nextLine().equals("yes"));
-
-
     }
 
     public static boolean put(Targa t, Proprietario p){
@@ -30,5 +28,9 @@ public class Main {
             registro.put(t,p);
             return true;
         }
+    }
+
+    public static HashMap<Proprietario, List<Targa>> revert(){
+
     }
 }
